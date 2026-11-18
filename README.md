@@ -1,73 +1,94 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Chanasuek Chaiyasorn — Tonnam. Computer Engineering at Chulalongkorn University. Software, systems and hardware." width="100%">
-</p>
+<a href="https://github.com/789852tonnam/GPU-Frustum-Culling-and-Indirect-Draw-in-Vulkan">
+  <img src="assets/profile-hero.gif" width="100%" alt="Chanasuek Chaiyasorn — Tonnam. Software, systems and hardware. Animated capture from my Vulkan GPU frustum-culling project.">
+</a>
 
 <p align="center">
-  <a href="#selected-projects">Projects</a> ·
-  <a href="#technical-toolkit">Technical Toolkit</a> ·
-  <a href="#education--internship">Education &amp; Internship</a> ·
-  <a href="mailto:789852tonnam@gmail.com">Contact</a>
+  <a href="#selected-work">Selected Work</a> &nbsp; / &nbsp;
+  <a href="#small-builds">Small Builds</a> &nbsp; / &nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
+  <a href="mailto:789852tonnam@gmail.com">Get in Touch</a>
 </p>
 
-I'm **Tonnam**, a third-year Computer Engineering student at **Chulalongkorn University**. My projects span web applications, networked systems, GPU rendering and FPGA image processing. I'm interested in **infrastructure, cloud, security and hardware**, and enjoy understanding how software interacts with the systems underneath it.
+**Hi, I'm Tonnam.** I'm a third-year Computer Engineering student at **Chulalongkorn University**, building across web applications, networked systems, GPU rendering and digital hardware. I'm especially interested in **infrastructure, cloud, security and hardware–software integration**.
 
-**Seeking a Summer 2027 internship · Available 20 May–31 July 2027**
+**Summer 2027 internship → Available 20 May–31 July 2027**
 
-## Selected Projects
+## Selected Work
 
-### [HKTutor](https://github.com/Sitta-C/HKTutor)
-**Tutor–student matching platform · Team of 10**<br>
-`TypeScript` `Next.js` `React` `NestJS` `PostgreSQL` `Prisma`
+<table>
+<tr>
+<td width="50%" valign="top">
+  <sub>01 &nbsp; / &nbsp; GRAPHICS &amp; PERFORMANCE</sub>
+  <h3><a href="https://github.com/789852tonnam/GPU-Frustum-Culling-and-Indirect-Draw-in-Vulkan">GPU Frustum Culling ↗</a></h3>
+  <p>GPU-driven rendering with indexed indirect drawing. Designed experiments comparing per-object and grouped culling, measuring performance and checking output against a CPU reference.</p>
+  <p><code>C++20</code> <code>Vulkan</code> <code>GLSL</code> <code>RenderDoc</code></p>
+  <sub>Individual project · AI-assisted development</sub>
+</td>
+<td width="50%" valign="top">
+  <sub>02 &nbsp; / &nbsp; NETWORKS &amp; SYSTEMS</sub>
+  <h3><a href="https://github.com/789852tonnam/Chat-System">Socket Chat ↗</a></h3>
+  <p>TCP chat with persistent history and background AI summaries. Co-designed the protocol and room workflows, integrated an external AI API and helped prepare persistent Docker storage.</p>
+  <p><code>Python</code> <code>TCP</code> <code>SQLite</code> <code>Docker</code></p>
+  <sub>Team of 3 · Computer Networks</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <sub>03 &nbsp; / &nbsp; WEB &amp; DATABASES</sub>
+  <h3><a href="https://github.com/Sitta-C/HKTutor">HKTutor ↗</a></h3>
+  <p>Tutor–student matching platform. Developed role-based dashboards and onboarding pages, built notification APIs and contributed API regression tests and database correctness checks.</p>
+  <p><code>Next.js</code> <code>NestJS</code> <code>TypeScript</code> <code>PostgreSQL</code></p>
+  <sub>Team of 10 · Software Engineering</sub>
+</td>
+<td width="50%" valign="top">
+  <sub>04 &nbsp; / &nbsp; DIGITAL HARDWARE</sub>
+  <h3><a href="https://github.com/789852tonnam/HWSynHomework-Camera-Module-with-Basys3">FPGA Camera &amp; Filters ↗</a></h3>
+  <p>Camera integration and image processing on Basys 3. Implemented edge-detection, color-isolation and color-inversion filters; wrote testbenches and inspected waveforms and resource reports.</p>
+  <p><code>Verilog</code> <code>Basys 3</code> <code>Vivado</code> <code>GTKWave</code></p>
+  <sub>Team of 3 · Hardware Synthesis</sub>
+</td>
+</tr>
+</table>
 
-- Developed role-based dashboards, navigation and profile/onboarding pages, integrating team APIs.
-- Built notification APIs with ownership checks, pagination and consistent read states; contributed API regression tests and database correctness checks.
+## Small Builds
 
-### [Socket Chat](https://github.com/789852tonnam/Chat-System)
-**TCP chat with AI conversation summaries · Team of 3**<br>
-`Python` `TCP sockets` `SQLite` `Tkinter` `Docker`
+<table>
+<tr>
+<td width="46%">
+  <a href="https://vga-playground.com/?repo=https://github.com/789852tonnam/Platformer_Game">
+    <img src="assets/platformer-game.jpg" width="100%" alt="Screenshot of Platformer Game running in VGA Playground: a fox, enemies, gems and a scrolling pixel-art level.">
+  </a>
+</td>
+<td width="54%" valign="top">
+  <sub>VERILOG / VGA PLAYGROUND</sub>
+  <h3><a href="https://github.com/789852tonnam/Platformer_Game">A Small Platformer ↗</a></h3>
+  <p>A small platformer written in Verilog, with a custom picture-processing unit, parallax scrolling, sprites, collisions, enemies and collectible gems.</p>
+  <p><a href="https://vga-playground.com/?repo=https://github.com/789852tonnam/Platformer_Game"><b>▶ Open playable demo</b></a> &nbsp; · &nbsp; <a href="https://github.com/789852tonnam/Platformer_Game">Source code</a></p>
+  <sub>Enable the gamepad; ← → move, ↑ / A / B jump.<br>Artwork: <a href="https://ansimuz.itch.io/sunny-land-pixel-game-art">SunnyLand by Ansimuz</a>.</sub>
+</td>
+</tr>
+</table>
 
-- Co-designed the application protocol, private/group chat workflows and persistent message history with room-membership checks.
-- Integrated background AI summaries through an external API and helped prepare a Docker server with persistent storage.
+## Toolkit
 
-### [GPU Frustum Culling in Vulkan](https://github.com/789852tonnam/GPU-Frustum-Culling-and-Indirect-Draw-in-Vulkan)
-**GPU-driven rendering and performance experiments · Individual project**<br>
-`C++20` `Vulkan 1.3` `GLSL` `Python` `RenderDoc`
-
-- Designed experiments comparing per-object and grouped GPU frustum culling with indexed indirect drawing.
-- Measured culling, drawing and total GPU time separately, checking correctness against a CPU reference and RenderDoc captures.
-
-### [Camera Module with Basys 3](https://github.com/789852tonnam/HWSynHomework-Camera-Module-with-Basys3)
-**FPGA camera and image-processing project · Team of 3**<br>
-`Verilog` `Basys 3` `Vivado` `GTKWave`
-
-- Connected a camera module to a Basys 3 FPGA and implemented edge-detection, color-isolation and color-inversion filters.
-- Wrote testbenches, inspected simulation waveforms and reviewed FPGA resource-utilization reports.
-
-## Technical Toolkit
-
-Tools and languages I've used in coursework, projects and personal experiments:
+Technologies I've used in coursework, projects and personal experiments:
 
 | Area | Technologies |
 | :--- | :--- |
-| Programming & HDL | Python, C, C++, Java, JavaScript, TypeScript, SQL, Verilog |
-| Web & Databases | React, Next.js, NestJS, PostgreSQL, Prisma, SQLite |
-| Systems & Networking | Fedora Linux, command line, SSH, Tailscale, Docker, Wireshark |
-| Testing & Collaboration | Git, GitHub, Jest, Supertest, Playwright, Python unittest/mock |
-| Graphics & Hardware | Vulkan, GLSL, CMake, RenderDoc, Vivado, GTKWave |
+| **Languages & HDL** | Python · C · C++ · Java · JavaScript · TypeScript · SQL · Verilog |
+| **Web & Data** | React · Next.js · NestJS · PostgreSQL · Prisma · SQLite |
+| **Systems & Networking** | Fedora Linux · CLI · SSH · Tailscale · Docker · Wireshark |
+| **Testing & Collaboration** | Git · GitHub · Jest · Supertest · Playwright · Python unittest/mock |
+| **Graphics & Hardware** | Vulkan · GLSL · CMake · RenderDoc · Vivado · GTKWave |
 
-**Current interests:** Linux systems, cloud infrastructure, security fundamentals and hardware–software integration.
+## A Little More
 
-## How I Work
+- **Education:** Computer Engineering, Chulalongkorn University · 2024–2028 (expected) · **GPAX 3.82**.
+- **Learning direction:** Linux systems, cloud infrastructure, security fundamentals and hardware–software integration.
+- **How I work:** Team collaboration through Git and pull requests; AI-assisted development and testing with requirements, implementation review and hands-on evaluation.
 
-I work with teammates through Git branches, pull requests and code review. I use AI-assisted development and testing alongside requirements, implementation review, hands-on checks and evaluation. The projects above describe my contributions within each team's work.
+---
 
-## Education & Internship
+**Let's connect → [789852tonnam@gmail.com](mailto:789852tonnam@gmail.com)**
 
-**Chulalongkorn University · Computer Engineering**<br>
-2024–2028 (expected) · Third-year student · **GPAX 3.82**
-
-Relevant coursework: Operating Systems & System Programming, Database Systems, Data Structures, Algorithm Design, Computer Architecture and Digital Logic.
-
-I'm looking for a **Summer 2027 technology internship**, with a particular interest in systems, infrastructure and hardware-related work. Available **20 May–31 July 2027**.
-
-**Get in touch:** [789852tonnam@gmail.com](mailto:789852tonnam@gmail.com)
+<sub>The animated banner is captured from my Vulkan project. Team project descriptions reflect my contributions.</sub>
