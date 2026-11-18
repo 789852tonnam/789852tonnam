@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+  <title id="title">Chanasuek Chaiyasorn — Tonnam</title>
+  <desc id="desc">Computer Engineering at Chulalongkorn University. Software, systems and hardware. A dark navy banner with a blue and teal layered circuit illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#101b2d"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent">
+      <stop stop-color="#76b6ff"/>
+      <stop offset="1" stop-color="#6be0cb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="290" rx="16" fill="url(#bg)"/>
+  <path d="M52 54h42" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="52" y="90" font-size="13" letter-spacing="2" fill="#a3b7d0">COMPUTER ENGINEERING · CHULALONGKORN UNIVERSITY</text>
+    <text x="49" y="154" font-size="47" font-weight="700" letter-spacing="-1.5" fill="#f1f5f9">Chanasuek Chaiyasorn</text>
+    <text x="52" y="193" font-size="21" fill="#9cbbdc">Tonnam / 789852tonnam</text>
+    <text x="52" y="245" font-size="15" letter-spacing="1" fill="#c4d1e0">SOFTWARE</text>
+    <circle cx="156" cy="240" r="2.5" fill="#6be0cb"/>
+    <text x="172" y="245" font-size="15" letter-spacing="1" fill="#c4d1e0">SYSTEMS</text>
+    <circle cx="265" cy="240" r="2.5" fill="#6be0cb"/>
+    <text x="281" y="245" font-size="15" letter-spacing="1" fill="#c4d1e0">HARDWARE</text>
+  </g>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <g stroke="#293c54" stroke-width="1">
+      <path d="M875 42v206M925 42v206M975 42v206M1025 42v206M1075 42v206M1125 42v206M850 70h300M850 120h300M850 170h300M850 220h300"/>
+    </g>
+    <path d="m905 175 95-55 95 55-95 55Z" fill="#122c39" stroke="#3d8d89" stroke-width="1.5"/>
+    <path d="m905 145 95-55 95 55-95 55Z" fill="#17364b" stroke="#5fa2ce" stroke-width="1.5"/>
+    <path d="m905 115 95-55 95 55-95 55Z" fill="#1b3b54" stroke="url(#accent)" stroke-width="2"/>
+    <path d="m963 115 37-22 37 22-37 22Z" stroke="#8bd8e9" stroke-width="1.5"/>
+    <path d="M905 115v60m95-5v60m95-115v60" stroke="#7298b9" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <path d="m905 145-34 20v40l-31 18m255-78 35 20v40l24 14M1000 230v22" stroke="#5d9caa" stroke-width="1.5"/>
+  </g>
+  <g fill="#6be0cb">
+    <circle cx="840" cy="223" r="4"/>
+    <circle cx="1154" cy="219" r="4"/>
+    <circle cx="1000" cy="252" r="4"/>
+  </g>
+</svg>
